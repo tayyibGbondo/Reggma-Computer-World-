@@ -137,7 +137,6 @@ p {
   background-color: rgba(128, 128, 128, 0.192);
 }
 .get_in-touch form input:focus {
-  outline: #04083d 3px;
 }
 .get_in-touch form button {
   padding: 10px 20px;
