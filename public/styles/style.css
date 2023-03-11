@@ -108,6 +108,55 @@ p {
 }
 .apply_now a {
   font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.get_in-touch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: white;
+}
+.get_in-touch form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.get_in-touch form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  outline-style: none;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.192);
+}
+.get_in-touch form input:focus {
+  outline: #04083d 3px;
+}
+.get_in-touch form button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+i {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  background-color: #04083d;
+  color: white;
+  padding: 20px;
 }
 
 /*Responsive design */
