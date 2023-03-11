@@ -89,6 +89,26 @@ p {
   max-width: 300px;
   min-height: 150px;
 }
+.ceo {
+  text-align: center;
+  background-color: white;
+  padding: 20px 0;
+}
+.ceo_image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.apply_now {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.apply_now a {
+  font-size: 1.2rem;
+}
 
 /*Responsive design */
 /*Desktop*/
